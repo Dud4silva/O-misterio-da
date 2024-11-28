@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Mistério das Criaturas Marinhas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-inicial.png" alt="Praia paradisíaca">
+            <p>Em um dia ensolarado, você e sua amiga descobrem estranhos sinais na areia, aparentemente deixados por criaturas marinhas misteriosas. A aventura começa agora!</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o Recife de Corais</button>
+            <button class="btn-proximo" data-proximo="2">Investigar a Gruta Subaquática</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No Recife de Corais, vocês encontram uma criatura marinha desconhecida que parece estar tentando comunicar algo. Para entender a mensagem, é preciso decifrar sinais no coral.</p>
+            <button class="btn-proximo" data-proximo="3">Decifrar os sinais</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a areia</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Gruta Subaquática, vocês descobrem uma entrada secreta que leva a um mundo submerso habitado por criaturas marinhas. Onde vocês começam a explorar?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o mundo submerso</button>
+            <button class="btn-proximo" data-proximo="6">Investigar a entrada da gruta</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Vocês decifram os sinais nos corais, que revelam a localização de uma criatura guardiã dos mares. A próxima pista indica que vocês devem seguir para a Baía Encantada.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Baía Encantada</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/passo-4.png" alt="Voltando para a areia e desistindo da aventura">
+            <p>Vocês decidem que a aventura é arriscada demais e voltam para a areia, mas sempre se perguntam o que teriam encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Explorando o mundo submerso, vocês encontram uma cidade antiga submersa habitada por criaturas marinhas que guardam segredos ancestrais.</p>
+            <button class="btn-proximo" data-proximo="7">Explorar a cidade submersa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Na entrada da gruta, vocês encontram símbolos antigos que levam a uma passagem para a Baía Encantada.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Baía Encantada</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na Baía Encantada, a busca pelo mistério das criaturas marinhas se intensifica. Vocês encontram duas possíveis rotas a seguir.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho da floresta de algas</button>
+            <button class="btn-proximo" data-proximo="10">Explorar as cavernas submarinas</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Decididos a descobrir o segredo, vocês voltam à entrada da gruta e encontram os símbolos que os levam à Baía Encantada.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Baía Encantada</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Pelo caminho da floresta de algas, vocês encontram um santuário submerso onde as criaturas marinhas se reúnem para revelar o segredo do oceano.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o santuário</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>As cavernas submarinas levam a um lago interno misterioso. Apesar das belas vistas, não há sinais das criaturas marinhas aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o caminho da floresta de algas</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/passo-11.png" alt="Descobrindo o santuário submerso">
+            <p>No santuário submerso, vocês descobrem que as criaturas marinhas protegem um segredo ancestral sobre a harmonia dos oceanos. Vocês decidem estudar e preservar este lugar incrível.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho da floresta de algas, vocês finalmente encontram o santuário submerso e o segredo das criaturas marinhas.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o santuário</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
